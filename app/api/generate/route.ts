@@ -6,7 +6,7 @@ import { extractJsonString } from "@/lib/llm/parseJson";
 import { resolveDefaultProvider } from "@/lib/llm/models";
 import { generateRequestSchema, listingOutputSchema } from "@/lib/validate/schemas";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 export async function POST(req: Request) {
   const traceId = crypto.randomUUID();

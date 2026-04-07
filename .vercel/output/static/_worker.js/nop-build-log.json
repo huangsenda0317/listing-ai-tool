@@ -1,0 +1,2169 @@
+{
+  "timestamp": 1775557040767,
+  "outputDir": ".vercel/output/static/_worker.js",
+  "versions": {
+    "@cloudflare/next-on-pages": "1.13.16"
+  },
+  "buildFiles": {
+    "functions": {
+      "invalid": [],
+      "middleware": [],
+      "edge": [
+        {
+          "relativePath": "/api/generate.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/generate",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "DgcRehdHAAsKKmk2SUg15",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "0a/PKMJeAnGdBZpL8BuUTfN4xjlLklhK0sjrhQuboIE=",
+              "__NEXT_PREVIEW_MODE_ID": "807f12b220648294553362da8f17c065",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "e67b43364e4f309fd3c94594d7565f5b1cc230ea397aaddb77d2bb67f62cf9db",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "7b09500599c5bee51be81f07153a1258e2cc7f0538b7ef306293700a3bedaeff"
+            }
+          },
+          "route": {
+            "path": "/api/generate",
+            "overrides": [
+              "/api/generate.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/generate.func.js",
+          "outputByteSize": 28489
+        },
+        {
+          "relativePath": "/api/translate.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/translate",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "DgcRehdHAAsKKmk2SUg15",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "0a/PKMJeAnGdBZpL8BuUTfN4xjlLklhK0sjrhQuboIE=",
+              "__NEXT_PREVIEW_MODE_ID": "807f12b220648294553362da8f17c065",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "e67b43364e4f309fd3c94594d7565f5b1cc230ea397aaddb77d2bb67f62cf9db",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "7b09500599c5bee51be81f07153a1258e2cc7f0538b7ef306293700a3bedaeff"
+            }
+          },
+          "route": {
+            "path": "/api/translate",
+            "overrides": [
+              "/api/translate.rsc"
+            ]
+          },
+          "outputPath": "__next-on-pages-dist__/functions/api/translate.func.js",
+          "outputByteSize": 28984
+        }
+      ],
+      "prerendered": [
+        {
+          "relativePath": "/_not-found.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "node_modules/@swc/helpers/_/_interop_require_default/package.json": "node_modules/@swc/helpers/_/_interop_require_default/package.json",
+              "node_modules/@swc/helpers/cjs/_interop_require_default.cjs": "node_modules/@swc/helpers/cjs/_interop_require_default.cjs",
+              "node_modules/@swc/helpers/package.json": "node_modules/@swc/helpers/package.json",
+              "node_modules/client-only/index.js": "node_modules/client-only/index.js",
+              "node_modules/client-only/package.json": "node_modules/client-only/package.json",
+              "node_modules/next/dist/client/components/app-router-headers.js": "node_modules/next/dist/client/components/app-router-headers.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/index.js": "node_modules/next/dist/compiled/@opentelemetry/api/index.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/package.json": "node_modules/next/dist/compiled/@opentelemetry/api/package.json",
+              "node_modules/next/dist/compiled/babel-code-frame/index.js": "node_modules/next/dist/compiled/babel-code-frame/index.js",
+              "node_modules/next/dist/compiled/babel-code-frame/package.json": "node_modules/next/dist/compiled/babel-code-frame/package.json",
+              "node_modules/next/dist/compiled/babel/code-frame.js": "node_modules/next/dist/compiled/babel/code-frame.js",
+              "node_modules/next/dist/compiled/babel/package.json": "node_modules/next/dist/compiled/babel/package.json",
+              "node_modules/next/dist/compiled/bytes/index.js": "node_modules/next/dist/compiled/bytes/index.js",
+              "node_modules/next/dist/compiled/bytes/package.json": "node_modules/next/dist/compiled/bytes/package.json",
+              "node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "node_modules/next/dist/compiled/source-map/package.json": "node_modules/next/dist/compiled/source-map/package.json",
+              "node_modules/next/dist/compiled/source-map/source-map.js": "node_modules/next/dist/compiled/source-map/source-map.js",
+              "node_modules/next/dist/compiled/stacktrace-parser/package.json": "node_modules/next/dist/compiled/stacktrace-parser/package.json",
+              "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js": "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js",
+              "node_modules/next/dist/compiled/ws/index.js": "node_modules/next/dist/compiled/ws/index.js",
+              "node_modules/next/dist/compiled/ws/package.json": "node_modules/next/dist/compiled/ws/package.json",
+              "node_modules/next/dist/experimental/testmode/context.js": "node_modules/next/dist/experimental/testmode/context.js",
+              "node_modules/next/dist/experimental/testmode/fetch.js": "node_modules/next/dist/experimental/testmode/fetch.js",
+              "node_modules/next/dist/experimental/testmode/server-edge.js": "node_modules/next/dist/experimental/testmode/server-edge.js",
+              "node_modules/next/dist/lib/client-and-server-references.js": "node_modules/next/dist/lib/client-and-server-references.js",
+              "node_modules/next/dist/lib/constants.js": "node_modules/next/dist/lib/constants.js",
+              "node_modules/next/dist/lib/interop-default.js": "node_modules/next/dist/lib/interop-default.js",
+              "node_modules/next/dist/lib/is-error.js": "node_modules/next/dist/lib/is-error.js",
+              "node_modules/next/dist/lib/picocolors.js": "node_modules/next/dist/lib/picocolors.js",
+              "node_modules/next/dist/next-devtools/server/shared.js": "node_modules/next/dist/next-devtools/server/shared.js",
+              "node_modules/next/dist/server/after/builtin-request-context.js": "node_modules/next/dist/server/after/builtin-request-context.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js": "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage.external.js": "node_modules/next/dist/server/app-render/after-task-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/async-local-storage.js": "node_modules/next/dist/server/app-render/async-local-storage.js",
+              "node_modules/next/dist/server/app-render/work-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-async-storage.external.js": "node_modules/next/dist/server/app-render/work-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js": "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+              "node_modules/next/dist/server/body-streams.js": "node_modules/next/dist/server/body-streams.js",
+              "node_modules/next/dist/server/lib/cache-handlers/default.external.js": "node_modules/next/dist/server/lib/cache-handlers/default.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js": "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js": "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js": "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js",
+              "node_modules/next/dist/server/lib/lru-cache.js": "node_modules/next/dist/server/lib/lru-cache.js",
+              "node_modules/next/dist/server/lib/parse-stack.js": "node_modules/next/dist/server/lib/parse-stack.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js",
+              "node_modules/next/dist/server/lib/router-utils/router-server-context.js": "node_modules/next/dist/server/lib/router-utils/router-server-context.js",
+              "node_modules/next/dist/server/lib/source-maps.js": "node_modules/next/dist/server/lib/source-maps.js",
+              "node_modules/next/dist/server/lib/trace/constants.js": "node_modules/next/dist/server/lib/trace/constants.js",
+              "node_modules/next/dist/server/lib/trace/tracer.js": "node_modules/next/dist/server/lib/trace/tracer.js",
+              "node_modules/next/dist/server/load-manifest.external.js": "node_modules/next/dist/server/load-manifest.external.js",
+              "node_modules/next/dist/server/patch-error-inspect.js": "node_modules/next/dist/server/patch-error-inspect.js",
+              "node_modules/next/dist/server/response-cache/types.js": "node_modules/next/dist/server/response-cache/types.js",
+              "node_modules/next/dist/server/route-modules/app-page/module.compiled.js": "node_modules/next/dist/server/route-modules/app-page/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/route-modules/pages/module.compiled.js": "node_modules/next/dist/server/route-modules/pages/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/web/utils.js": "node_modules/next/dist/server/web/utils.js",
+              "node_modules/next/dist/shared/lib/constants.js": "node_modules/next/dist/shared/lib/constants.js",
+              "node_modules/next/dist/shared/lib/deep-freeze.js": "node_modules/next/dist/shared/lib/deep-freeze.js",
+              "node_modules/next/dist/shared/lib/error-source.js": "node_modules/next/dist/shared/lib/error-source.js",
+              "node_modules/next/dist/shared/lib/invariant-error.js": "node_modules/next/dist/shared/lib/invariant-error.js",
+              "node_modules/next/dist/shared/lib/is-internal.js": "node_modules/next/dist/shared/lib/is-internal.js",
+              "node_modules/next/dist/shared/lib/is-plain-object.js": "node_modules/next/dist/shared/lib/is-plain-object.js",
+              "node_modules/next/dist/shared/lib/is-thenable.js": "node_modules/next/dist/shared/lib/is-thenable.js",
+              "node_modules/next/dist/shared/lib/modern-browserslist-target.js": "node_modules/next/dist/shared/lib/modern-browserslist-target.js",
+              "node_modules/next/dist/shared/lib/no-fallback-error.external.js": "node_modules/next/dist/shared/lib/no-fallback-error.external.js",
+              "node_modules/next/dist/shared/lib/runtime-config.external.js": "node_modules/next/dist/shared/lib/runtime-config.external.js",
+              "node_modules/next/dist/shared/lib/server-reference-info.js": "node_modules/next/dist/shared/lib/server-reference-info.js",
+              "node_modules/next/package.json": "node_modules/next/package.json",
+              "node_modules/react/cjs/react.production.js": "node_modules/react/cjs/react.production.js",
+              "node_modules/react/index.js": "node_modules/react/index.js",
+              "node_modules/react/package.json": "node_modules/react/package.json",
+              "node_modules/styled-jsx/dist/index/index.js": "node_modules/styled-jsx/dist/index/index.js",
+              "node_modules/styled-jsx/index.js": "node_modules/styled-jsx/index.js",
+              "node_modules/styled-jsx/package.json": "node_modules/styled-jsx/package.json",
+              "node_modules/styled-jsx/style.js": "node_modules/styled-jsx/style.js",
+              ".next/package.json": ".next/package.json",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.example": ".env.example",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/functions-config-manifest.json": ".next/server/functions-config-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/required-server-files.json": ".next/required-server-files.json",
+              "node_modules/next/dist/pages/_app.js": "node_modules/next/dist/pages/_app.js",
+              "node_modules/react/cjs/react-jsx-runtime.development.js": "node_modules/react/cjs/react-jsx-runtime.development.js",
+              "node_modules/react/cjs/react-jsx-runtime.production.js": "node_modules/react/cjs/react-jsx-runtime.production.js",
+              "node_modules/react/cjs/react.development.js": "node_modules/react/cjs/react.development.js",
+              "node_modules/react/jsx-runtime.js": "node_modules/react/jsx-runtime.js",
+              "package.json": "package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/index.js": "node_modules/next/dist/compiled/jsonwebtoken/index.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/package.json": "node_modules/next/dist/compiled/jsonwebtoken/package.json",
+              "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js": "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js",
+              "node_modules/next/dist/lib/semver-noop.js": "node_modules/next/dist/lib/semver-noop.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.development.js": "node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.production.js": "node_modules/react-dom/cjs/react-dom-server.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.development.js": "node_modules/react-dom/cjs/react-dom-server.edge.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.production.js": "node_modules/react-dom/cjs/react-dom-server.edge.production.js",
+              "node_modules/react-dom/cjs/react-dom.development.js": "node_modules/react-dom/cjs/react-dom.development.js",
+              "node_modules/react-dom/cjs/react-dom.production.js": "node_modules/react-dom/cjs/react-dom.production.js",
+              "node_modules/react-dom/index.js": "node_modules/react-dom/index.js",
+              "node_modules/react-dom/package.json": "node_modules/react-dom/package.json",
+              "node_modules/react-dom/server.browser.js": "node_modules/react-dom/server.browser.js",
+              "node_modules/react-dom/server.edge.js": "node_modules/react-dom/server.edge.js",
+              ".next/server/chunks/611.js": ".next/server/chunks/611.js",
+              "node_modules/next/dist/pages/_document.js": "node_modules/next/dist/pages/_document.js",
+              "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js": "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+              "node_modules/next/dist/server/app-render/action-async-storage-instance.js": "node_modules/next/dist/server/app-render/action-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/action-async-storage.external.js": "node_modules/next/dist/server/app-render/action-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/cache-signal.js": "node_modules/next/dist/server/app-render/cache-signal.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js",
+              "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js": "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+              "node_modules/next/dist/shared/lib/router/utils/app-paths.js": "node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+              "node_modules/next/dist/shared/lib/router/utils/html-bots.js": "node_modules/next/dist/shared/lib/router/utils/html-bots.js",
+              "node_modules/next/dist/shared/lib/router/utils/is-bot.js": "node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+              "node_modules/next/dist/shared/lib/segment.js": "node_modules/next/dist/shared/lib/segment.js",
+              ".next/server/chunks/778.js": ".next/server/chunks/778.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js"
+            }
+          },
+          "route": {
+            "path": "/_not-found.html",
+            "headers": {
+              "x-nextjs-stale-time": "300",
+              "x-nextjs-prerender": "1",
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/_not-found/layout,_N_T_/_not-found/page,_N_T_/_not-found",
+              "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            "overrides": [
+              "/_not-found"
+            ]
+          }
+        },
+        {
+          "relativePath": "/_not-found.rsc.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "node_modules/@swc/helpers/_/_interop_require_default/package.json": "node_modules/@swc/helpers/_/_interop_require_default/package.json",
+              "node_modules/@swc/helpers/cjs/_interop_require_default.cjs": "node_modules/@swc/helpers/cjs/_interop_require_default.cjs",
+              "node_modules/@swc/helpers/package.json": "node_modules/@swc/helpers/package.json",
+              "node_modules/client-only/index.js": "node_modules/client-only/index.js",
+              "node_modules/client-only/package.json": "node_modules/client-only/package.json",
+              "node_modules/next/dist/client/components/app-router-headers.js": "node_modules/next/dist/client/components/app-router-headers.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/index.js": "node_modules/next/dist/compiled/@opentelemetry/api/index.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/package.json": "node_modules/next/dist/compiled/@opentelemetry/api/package.json",
+              "node_modules/next/dist/compiled/babel-code-frame/index.js": "node_modules/next/dist/compiled/babel-code-frame/index.js",
+              "node_modules/next/dist/compiled/babel-code-frame/package.json": "node_modules/next/dist/compiled/babel-code-frame/package.json",
+              "node_modules/next/dist/compiled/babel/code-frame.js": "node_modules/next/dist/compiled/babel/code-frame.js",
+              "node_modules/next/dist/compiled/babel/package.json": "node_modules/next/dist/compiled/babel/package.json",
+              "node_modules/next/dist/compiled/bytes/index.js": "node_modules/next/dist/compiled/bytes/index.js",
+              "node_modules/next/dist/compiled/bytes/package.json": "node_modules/next/dist/compiled/bytes/package.json",
+              "node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "node_modules/next/dist/compiled/source-map/package.json": "node_modules/next/dist/compiled/source-map/package.json",
+              "node_modules/next/dist/compiled/source-map/source-map.js": "node_modules/next/dist/compiled/source-map/source-map.js",
+              "node_modules/next/dist/compiled/stacktrace-parser/package.json": "node_modules/next/dist/compiled/stacktrace-parser/package.json",
+              "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js": "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js",
+              "node_modules/next/dist/compiled/ws/index.js": "node_modules/next/dist/compiled/ws/index.js",
+              "node_modules/next/dist/compiled/ws/package.json": "node_modules/next/dist/compiled/ws/package.json",
+              "node_modules/next/dist/experimental/testmode/context.js": "node_modules/next/dist/experimental/testmode/context.js",
+              "node_modules/next/dist/experimental/testmode/fetch.js": "node_modules/next/dist/experimental/testmode/fetch.js",
+              "node_modules/next/dist/experimental/testmode/server-edge.js": "node_modules/next/dist/experimental/testmode/server-edge.js",
+              "node_modules/next/dist/lib/client-and-server-references.js": "node_modules/next/dist/lib/client-and-server-references.js",
+              "node_modules/next/dist/lib/constants.js": "node_modules/next/dist/lib/constants.js",
+              "node_modules/next/dist/lib/interop-default.js": "node_modules/next/dist/lib/interop-default.js",
+              "node_modules/next/dist/lib/is-error.js": "node_modules/next/dist/lib/is-error.js",
+              "node_modules/next/dist/lib/picocolors.js": "node_modules/next/dist/lib/picocolors.js",
+              "node_modules/next/dist/next-devtools/server/shared.js": "node_modules/next/dist/next-devtools/server/shared.js",
+              "node_modules/next/dist/server/after/builtin-request-context.js": "node_modules/next/dist/server/after/builtin-request-context.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js": "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage.external.js": "node_modules/next/dist/server/app-render/after-task-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/async-local-storage.js": "node_modules/next/dist/server/app-render/async-local-storage.js",
+              "node_modules/next/dist/server/app-render/work-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-async-storage.external.js": "node_modules/next/dist/server/app-render/work-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js": "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+              "node_modules/next/dist/server/body-streams.js": "node_modules/next/dist/server/body-streams.js",
+              "node_modules/next/dist/server/lib/cache-handlers/default.external.js": "node_modules/next/dist/server/lib/cache-handlers/default.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js": "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js": "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js": "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js",
+              "node_modules/next/dist/server/lib/lru-cache.js": "node_modules/next/dist/server/lib/lru-cache.js",
+              "node_modules/next/dist/server/lib/parse-stack.js": "node_modules/next/dist/server/lib/parse-stack.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js",
+              "node_modules/next/dist/server/lib/router-utils/router-server-context.js": "node_modules/next/dist/server/lib/router-utils/router-server-context.js",
+              "node_modules/next/dist/server/lib/source-maps.js": "node_modules/next/dist/server/lib/source-maps.js",
+              "node_modules/next/dist/server/lib/trace/constants.js": "node_modules/next/dist/server/lib/trace/constants.js",
+              "node_modules/next/dist/server/lib/trace/tracer.js": "node_modules/next/dist/server/lib/trace/tracer.js",
+              "node_modules/next/dist/server/load-manifest.external.js": "node_modules/next/dist/server/load-manifest.external.js",
+              "node_modules/next/dist/server/patch-error-inspect.js": "node_modules/next/dist/server/patch-error-inspect.js",
+              "node_modules/next/dist/server/response-cache/types.js": "node_modules/next/dist/server/response-cache/types.js",
+              "node_modules/next/dist/server/route-modules/app-page/module.compiled.js": "node_modules/next/dist/server/route-modules/app-page/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/route-modules/pages/module.compiled.js": "node_modules/next/dist/server/route-modules/pages/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/web/utils.js": "node_modules/next/dist/server/web/utils.js",
+              "node_modules/next/dist/shared/lib/constants.js": "node_modules/next/dist/shared/lib/constants.js",
+              "node_modules/next/dist/shared/lib/deep-freeze.js": "node_modules/next/dist/shared/lib/deep-freeze.js",
+              "node_modules/next/dist/shared/lib/error-source.js": "node_modules/next/dist/shared/lib/error-source.js",
+              "node_modules/next/dist/shared/lib/invariant-error.js": "node_modules/next/dist/shared/lib/invariant-error.js",
+              "node_modules/next/dist/shared/lib/is-internal.js": "node_modules/next/dist/shared/lib/is-internal.js",
+              "node_modules/next/dist/shared/lib/is-plain-object.js": "node_modules/next/dist/shared/lib/is-plain-object.js",
+              "node_modules/next/dist/shared/lib/is-thenable.js": "node_modules/next/dist/shared/lib/is-thenable.js",
+              "node_modules/next/dist/shared/lib/modern-browserslist-target.js": "node_modules/next/dist/shared/lib/modern-browserslist-target.js",
+              "node_modules/next/dist/shared/lib/no-fallback-error.external.js": "node_modules/next/dist/shared/lib/no-fallback-error.external.js",
+              "node_modules/next/dist/shared/lib/runtime-config.external.js": "node_modules/next/dist/shared/lib/runtime-config.external.js",
+              "node_modules/next/dist/shared/lib/server-reference-info.js": "node_modules/next/dist/shared/lib/server-reference-info.js",
+              "node_modules/next/package.json": "node_modules/next/package.json",
+              "node_modules/react/cjs/react.production.js": "node_modules/react/cjs/react.production.js",
+              "node_modules/react/index.js": "node_modules/react/index.js",
+              "node_modules/react/package.json": "node_modules/react/package.json",
+              "node_modules/styled-jsx/dist/index/index.js": "node_modules/styled-jsx/dist/index/index.js",
+              "node_modules/styled-jsx/index.js": "node_modules/styled-jsx/index.js",
+              "node_modules/styled-jsx/package.json": "node_modules/styled-jsx/package.json",
+              "node_modules/styled-jsx/style.js": "node_modules/styled-jsx/style.js",
+              ".next/package.json": ".next/package.json",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.example": ".env.example",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/functions-config-manifest.json": ".next/server/functions-config-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/required-server-files.json": ".next/required-server-files.json",
+              "node_modules/next/dist/pages/_app.js": "node_modules/next/dist/pages/_app.js",
+              "node_modules/react/cjs/react-jsx-runtime.development.js": "node_modules/react/cjs/react-jsx-runtime.development.js",
+              "node_modules/react/cjs/react-jsx-runtime.production.js": "node_modules/react/cjs/react-jsx-runtime.production.js",
+              "node_modules/react/cjs/react.development.js": "node_modules/react/cjs/react.development.js",
+              "node_modules/react/jsx-runtime.js": "node_modules/react/jsx-runtime.js",
+              "package.json": "package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/index.js": "node_modules/next/dist/compiled/jsonwebtoken/index.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/package.json": "node_modules/next/dist/compiled/jsonwebtoken/package.json",
+              "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js": "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js",
+              "node_modules/next/dist/lib/semver-noop.js": "node_modules/next/dist/lib/semver-noop.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.development.js": "node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.production.js": "node_modules/react-dom/cjs/react-dom-server.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.development.js": "node_modules/react-dom/cjs/react-dom-server.edge.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.production.js": "node_modules/react-dom/cjs/react-dom-server.edge.production.js",
+              "node_modules/react-dom/cjs/react-dom.development.js": "node_modules/react-dom/cjs/react-dom.development.js",
+              "node_modules/react-dom/cjs/react-dom.production.js": "node_modules/react-dom/cjs/react-dom.production.js",
+              "node_modules/react-dom/index.js": "node_modules/react-dom/index.js",
+              "node_modules/react-dom/package.json": "node_modules/react-dom/package.json",
+              "node_modules/react-dom/server.browser.js": "node_modules/react-dom/server.browser.js",
+              "node_modules/react-dom/server.edge.js": "node_modules/react-dom/server.edge.js",
+              ".next/server/chunks/611.js": ".next/server/chunks/611.js",
+              "node_modules/next/dist/pages/_document.js": "node_modules/next/dist/pages/_document.js",
+              "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js": "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+              "node_modules/next/dist/server/app-render/action-async-storage-instance.js": "node_modules/next/dist/server/app-render/action-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/action-async-storage.external.js": "node_modules/next/dist/server/app-render/action-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/cache-signal.js": "node_modules/next/dist/server/app-render/cache-signal.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js",
+              "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js": "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+              "node_modules/next/dist/shared/lib/router/utils/app-paths.js": "node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+              "node_modules/next/dist/shared/lib/router/utils/html-bots.js": "node_modules/next/dist/shared/lib/router/utils/html-bots.js",
+              "node_modules/next/dist/shared/lib/router/utils/is-bot.js": "node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+              "node_modules/next/dist/shared/lib/segment.js": "node_modules/next/dist/shared/lib/segment.js",
+              ".next/server/chunks/778.js": ".next/server/chunks/778.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js"
+            }
+          },
+          "route": {
+            "path": "/_not-found.rsc",
+            "headers": {
+              "x-nextjs-stale-time": "300",
+              "x-nextjs-prerender": "1",
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/_not-found/layout,_N_T_/_not-found/page,_N_T_/_not-found",
+              "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+              "content-type": "text/x-component"
+            },
+            "overrides": []
+          }
+        },
+        {
+          "relativePath": "/index.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "node_modules/@swc/helpers/_/_interop_require_default/package.json": "node_modules/@swc/helpers/_/_interop_require_default/package.json",
+              "node_modules/@swc/helpers/cjs/_interop_require_default.cjs": "node_modules/@swc/helpers/cjs/_interop_require_default.cjs",
+              "node_modules/@swc/helpers/package.json": "node_modules/@swc/helpers/package.json",
+              "node_modules/client-only/index.js": "node_modules/client-only/index.js",
+              "node_modules/client-only/package.json": "node_modules/client-only/package.json",
+              "node_modules/next/dist/client/components/app-router-headers.js": "node_modules/next/dist/client/components/app-router-headers.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/index.js": "node_modules/next/dist/compiled/@opentelemetry/api/index.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/package.json": "node_modules/next/dist/compiled/@opentelemetry/api/package.json",
+              "node_modules/next/dist/compiled/babel-code-frame/index.js": "node_modules/next/dist/compiled/babel-code-frame/index.js",
+              "node_modules/next/dist/compiled/babel-code-frame/package.json": "node_modules/next/dist/compiled/babel-code-frame/package.json",
+              "node_modules/next/dist/compiled/babel/code-frame.js": "node_modules/next/dist/compiled/babel/code-frame.js",
+              "node_modules/next/dist/compiled/babel/package.json": "node_modules/next/dist/compiled/babel/package.json",
+              "node_modules/next/dist/compiled/bytes/index.js": "node_modules/next/dist/compiled/bytes/index.js",
+              "node_modules/next/dist/compiled/bytes/package.json": "node_modules/next/dist/compiled/bytes/package.json",
+              "node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "node_modules/next/dist/compiled/source-map/package.json": "node_modules/next/dist/compiled/source-map/package.json",
+              "node_modules/next/dist/compiled/source-map/source-map.js": "node_modules/next/dist/compiled/source-map/source-map.js",
+              "node_modules/next/dist/compiled/stacktrace-parser/package.json": "node_modules/next/dist/compiled/stacktrace-parser/package.json",
+              "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js": "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js",
+              "node_modules/next/dist/compiled/ws/index.js": "node_modules/next/dist/compiled/ws/index.js",
+              "node_modules/next/dist/compiled/ws/package.json": "node_modules/next/dist/compiled/ws/package.json",
+              "node_modules/next/dist/experimental/testmode/context.js": "node_modules/next/dist/experimental/testmode/context.js",
+              "node_modules/next/dist/experimental/testmode/fetch.js": "node_modules/next/dist/experimental/testmode/fetch.js",
+              "node_modules/next/dist/experimental/testmode/server-edge.js": "node_modules/next/dist/experimental/testmode/server-edge.js",
+              "node_modules/next/dist/lib/client-and-server-references.js": "node_modules/next/dist/lib/client-and-server-references.js",
+              "node_modules/next/dist/lib/constants.js": "node_modules/next/dist/lib/constants.js",
+              "node_modules/next/dist/lib/interop-default.js": "node_modules/next/dist/lib/interop-default.js",
+              "node_modules/next/dist/lib/is-error.js": "node_modules/next/dist/lib/is-error.js",
+              "node_modules/next/dist/lib/picocolors.js": "node_modules/next/dist/lib/picocolors.js",
+              "node_modules/next/dist/next-devtools/server/shared.js": "node_modules/next/dist/next-devtools/server/shared.js",
+              "node_modules/next/dist/server/after/builtin-request-context.js": "node_modules/next/dist/server/after/builtin-request-context.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js": "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage.external.js": "node_modules/next/dist/server/app-render/after-task-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/async-local-storage.js": "node_modules/next/dist/server/app-render/async-local-storage.js",
+              "node_modules/next/dist/server/app-render/work-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-async-storage.external.js": "node_modules/next/dist/server/app-render/work-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js": "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+              "node_modules/next/dist/server/body-streams.js": "node_modules/next/dist/server/body-streams.js",
+              "node_modules/next/dist/server/lib/cache-handlers/default.external.js": "node_modules/next/dist/server/lib/cache-handlers/default.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js": "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js": "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js": "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js",
+              "node_modules/next/dist/server/lib/lru-cache.js": "node_modules/next/dist/server/lib/lru-cache.js",
+              "node_modules/next/dist/server/lib/parse-stack.js": "node_modules/next/dist/server/lib/parse-stack.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js",
+              "node_modules/next/dist/server/lib/router-utils/router-server-context.js": "node_modules/next/dist/server/lib/router-utils/router-server-context.js",
+              "node_modules/next/dist/server/lib/source-maps.js": "node_modules/next/dist/server/lib/source-maps.js",
+              "node_modules/next/dist/server/lib/trace/constants.js": "node_modules/next/dist/server/lib/trace/constants.js",
+              "node_modules/next/dist/server/lib/trace/tracer.js": "node_modules/next/dist/server/lib/trace/tracer.js",
+              "node_modules/next/dist/server/load-manifest.external.js": "node_modules/next/dist/server/load-manifest.external.js",
+              "node_modules/next/dist/server/patch-error-inspect.js": "node_modules/next/dist/server/patch-error-inspect.js",
+              "node_modules/next/dist/server/response-cache/types.js": "node_modules/next/dist/server/response-cache/types.js",
+              "node_modules/next/dist/server/route-modules/app-page/module.compiled.js": "node_modules/next/dist/server/route-modules/app-page/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/route-modules/pages/module.compiled.js": "node_modules/next/dist/server/route-modules/pages/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/web/utils.js": "node_modules/next/dist/server/web/utils.js",
+              "node_modules/next/dist/shared/lib/constants.js": "node_modules/next/dist/shared/lib/constants.js",
+              "node_modules/next/dist/shared/lib/deep-freeze.js": "node_modules/next/dist/shared/lib/deep-freeze.js",
+              "node_modules/next/dist/shared/lib/error-source.js": "node_modules/next/dist/shared/lib/error-source.js",
+              "node_modules/next/dist/shared/lib/invariant-error.js": "node_modules/next/dist/shared/lib/invariant-error.js",
+              "node_modules/next/dist/shared/lib/is-internal.js": "node_modules/next/dist/shared/lib/is-internal.js",
+              "node_modules/next/dist/shared/lib/is-plain-object.js": "node_modules/next/dist/shared/lib/is-plain-object.js",
+              "node_modules/next/dist/shared/lib/is-thenable.js": "node_modules/next/dist/shared/lib/is-thenable.js",
+              "node_modules/next/dist/shared/lib/modern-browserslist-target.js": "node_modules/next/dist/shared/lib/modern-browserslist-target.js",
+              "node_modules/next/dist/shared/lib/no-fallback-error.external.js": "node_modules/next/dist/shared/lib/no-fallback-error.external.js",
+              "node_modules/next/dist/shared/lib/runtime-config.external.js": "node_modules/next/dist/shared/lib/runtime-config.external.js",
+              "node_modules/next/dist/shared/lib/server-reference-info.js": "node_modules/next/dist/shared/lib/server-reference-info.js",
+              "node_modules/next/package.json": "node_modules/next/package.json",
+              "node_modules/react/cjs/react.production.js": "node_modules/react/cjs/react.production.js",
+              "node_modules/react/index.js": "node_modules/react/index.js",
+              "node_modules/react/package.json": "node_modules/react/package.json",
+              "node_modules/styled-jsx/dist/index/index.js": "node_modules/styled-jsx/dist/index/index.js",
+              "node_modules/styled-jsx/index.js": "node_modules/styled-jsx/index.js",
+              "node_modules/styled-jsx/package.json": "node_modules/styled-jsx/package.json",
+              "node_modules/styled-jsx/style.js": "node_modules/styled-jsx/style.js",
+              ".next/package.json": ".next/package.json",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.example": ".env.example",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/functions-config-manifest.json": ".next/server/functions-config-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/required-server-files.json": ".next/required-server-files.json",
+              "node_modules/next/dist/pages/_app.js": "node_modules/next/dist/pages/_app.js",
+              "node_modules/react/cjs/react-jsx-runtime.development.js": "node_modules/react/cjs/react-jsx-runtime.development.js",
+              "node_modules/react/cjs/react-jsx-runtime.production.js": "node_modules/react/cjs/react-jsx-runtime.production.js",
+              "node_modules/react/cjs/react.development.js": "node_modules/react/cjs/react.development.js",
+              "node_modules/react/jsx-runtime.js": "node_modules/react/jsx-runtime.js",
+              "package.json": "package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/index.js": "node_modules/next/dist/compiled/jsonwebtoken/index.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/package.json": "node_modules/next/dist/compiled/jsonwebtoken/package.json",
+              "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js": "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js",
+              "node_modules/next/dist/lib/semver-noop.js": "node_modules/next/dist/lib/semver-noop.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.development.js": "node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.production.js": "node_modules/react-dom/cjs/react-dom-server.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.development.js": "node_modules/react-dom/cjs/react-dom-server.edge.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.production.js": "node_modules/react-dom/cjs/react-dom-server.edge.production.js",
+              "node_modules/react-dom/cjs/react-dom.development.js": "node_modules/react-dom/cjs/react-dom.development.js",
+              "node_modules/react-dom/cjs/react-dom.production.js": "node_modules/react-dom/cjs/react-dom.production.js",
+              "node_modules/react-dom/index.js": "node_modules/react-dom/index.js",
+              "node_modules/react-dom/package.json": "node_modules/react-dom/package.json",
+              "node_modules/react-dom/server.browser.js": "node_modules/react-dom/server.browser.js",
+              "node_modules/react-dom/server.edge.js": "node_modules/react-dom/server.edge.js",
+              ".next/server/chunks/611.js": ".next/server/chunks/611.js",
+              "node_modules/next/dist/pages/_document.js": "node_modules/next/dist/pages/_document.js",
+              "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js": "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+              "node_modules/next/dist/server/app-render/action-async-storage-instance.js": "node_modules/next/dist/server/app-render/action-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/action-async-storage.external.js": "node_modules/next/dist/server/app-render/action-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/cache-signal.js": "node_modules/next/dist/server/app-render/cache-signal.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js",
+              "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js": "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+              "node_modules/next/dist/shared/lib/router/utils/app-paths.js": "node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+              "node_modules/next/dist/shared/lib/router/utils/html-bots.js": "node_modules/next/dist/shared/lib/router/utils/html-bots.js",
+              "node_modules/next/dist/shared/lib/router/utils/is-bot.js": "node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+              "node_modules/next/dist/shared/lib/segment.js": "node_modules/next/dist/shared/lib/segment.js",
+              ".next/server/chunks/778.js": ".next/server/chunks/778.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js"
+            }
+          },
+          "route": {
+            "path": "/index.html",
+            "headers": {
+              "x-nextjs-stale-time": "300",
+              "x-nextjs-prerender": "1",
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/page,_N_T_/",
+              "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch"
+            },
+            "overrides": [
+              "/index",
+              "/"
+            ]
+          },
+          "sourcePath": "/"
+        },
+        {
+          "relativePath": "/index.rsc.func",
+          "config": {
+            "operationType": "ISR",
+            "handler": "___next_launcher.cjs",
+            "runtime": "nodejs24.x",
+            "architecture": "arm64",
+            "environment": {},
+            "supportsMultiPayloads": true,
+            "supportsResponseStreaming": true,
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "experimentalAllowBundling": false,
+            "shouldDisableAutomaticFetchInstrumentation": false,
+            "launcherType": "Nodejs",
+            "shouldAddHelpers": false,
+            "shouldAddSourcemapSupport": false,
+            "filePathMap": {
+              "node_modules/@swc/helpers/_/_interop_require_default/package.json": "node_modules/@swc/helpers/_/_interop_require_default/package.json",
+              "node_modules/@swc/helpers/cjs/_interop_require_default.cjs": "node_modules/@swc/helpers/cjs/_interop_require_default.cjs",
+              "node_modules/@swc/helpers/package.json": "node_modules/@swc/helpers/package.json",
+              "node_modules/client-only/index.js": "node_modules/client-only/index.js",
+              "node_modules/client-only/package.json": "node_modules/client-only/package.json",
+              "node_modules/next/dist/client/components/app-router-headers.js": "node_modules/next/dist/client/components/app-router-headers.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/index.js": "node_modules/next/dist/compiled/@opentelemetry/api/index.js",
+              "node_modules/next/dist/compiled/@opentelemetry/api/package.json": "node_modules/next/dist/compiled/@opentelemetry/api/package.json",
+              "node_modules/next/dist/compiled/babel-code-frame/index.js": "node_modules/next/dist/compiled/babel-code-frame/index.js",
+              "node_modules/next/dist/compiled/babel-code-frame/package.json": "node_modules/next/dist/compiled/babel-code-frame/package.json",
+              "node_modules/next/dist/compiled/babel/code-frame.js": "node_modules/next/dist/compiled/babel/code-frame.js",
+              "node_modules/next/dist/compiled/babel/package.json": "node_modules/next/dist/compiled/babel/package.json",
+              "node_modules/next/dist/compiled/bytes/index.js": "node_modules/next/dist/compiled/bytes/index.js",
+              "node_modules/next/dist/compiled/bytes/package.json": "node_modules/next/dist/compiled/bytes/package.json",
+              "node_modules/next/dist/compiled/next-server/server.runtime.prod.js": "node_modules/next/dist/compiled/next-server/server.runtime.prod.js",
+              "node_modules/next/dist/compiled/source-map/package.json": "node_modules/next/dist/compiled/source-map/package.json",
+              "node_modules/next/dist/compiled/source-map/source-map.js": "node_modules/next/dist/compiled/source-map/source-map.js",
+              "node_modules/next/dist/compiled/stacktrace-parser/package.json": "node_modules/next/dist/compiled/stacktrace-parser/package.json",
+              "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js": "node_modules/next/dist/compiled/stacktrace-parser/stack-trace-parser.cjs.js",
+              "node_modules/next/dist/compiled/ws/index.js": "node_modules/next/dist/compiled/ws/index.js",
+              "node_modules/next/dist/compiled/ws/package.json": "node_modules/next/dist/compiled/ws/package.json",
+              "node_modules/next/dist/experimental/testmode/context.js": "node_modules/next/dist/experimental/testmode/context.js",
+              "node_modules/next/dist/experimental/testmode/fetch.js": "node_modules/next/dist/experimental/testmode/fetch.js",
+              "node_modules/next/dist/experimental/testmode/server-edge.js": "node_modules/next/dist/experimental/testmode/server-edge.js",
+              "node_modules/next/dist/lib/client-and-server-references.js": "node_modules/next/dist/lib/client-and-server-references.js",
+              "node_modules/next/dist/lib/constants.js": "node_modules/next/dist/lib/constants.js",
+              "node_modules/next/dist/lib/interop-default.js": "node_modules/next/dist/lib/interop-default.js",
+              "node_modules/next/dist/lib/is-error.js": "node_modules/next/dist/lib/is-error.js",
+              "node_modules/next/dist/lib/picocolors.js": "node_modules/next/dist/lib/picocolors.js",
+              "node_modules/next/dist/next-devtools/server/shared.js": "node_modules/next/dist/next-devtools/server/shared.js",
+              "node_modules/next/dist/server/after/builtin-request-context.js": "node_modules/next/dist/server/after/builtin-request-context.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js": "node_modules/next/dist/server/app-render/after-task-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/after-task-async-storage.external.js": "node_modules/next/dist/server/app-render/after-task-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/async-local-storage.js": "node_modules/next/dist/server/app-render/async-local-storage.js",
+              "node_modules/next/dist/server/app-render/work-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-async-storage.external.js": "node_modules/next/dist/server/app-render/work-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js": "node_modules/next/dist/server/app-render/work-unit-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js": "node_modules/next/dist/server/app-render/work-unit-async-storage.external.js",
+              "node_modules/next/dist/server/body-streams.js": "node_modules/next/dist/server/body-streams.js",
+              "node_modules/next/dist/server/lib/cache-handlers/default.external.js": "node_modules/next/dist/server/lib/cache-handlers/default.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js": "node_modules/next/dist/server/lib/incremental-cache/memory-cache.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js": "node_modules/next/dist/server/lib/incremental-cache/shared-cache-controls.external.js",
+              "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js": "node_modules/next/dist/server/lib/incremental-cache/tags-manifest.external.js",
+              "node_modules/next/dist/server/lib/lru-cache.js": "node_modules/next/dist/server/lib/lru-cache.js",
+              "node_modules/next/dist/server/lib/parse-stack.js": "node_modules/next/dist/server/lib/parse-stack.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-globals.external.js",
+              "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js": "node_modules/next/dist/server/lib/router-utils/instrumentation-node-extensions.js",
+              "node_modules/next/dist/server/lib/router-utils/router-server-context.js": "node_modules/next/dist/server/lib/router-utils/router-server-context.js",
+              "node_modules/next/dist/server/lib/source-maps.js": "node_modules/next/dist/server/lib/source-maps.js",
+              "node_modules/next/dist/server/lib/trace/constants.js": "node_modules/next/dist/server/lib/trace/constants.js",
+              "node_modules/next/dist/server/lib/trace/tracer.js": "node_modules/next/dist/server/lib/trace/tracer.js",
+              "node_modules/next/dist/server/load-manifest.external.js": "node_modules/next/dist/server/load-manifest.external.js",
+              "node_modules/next/dist/server/patch-error-inspect.js": "node_modules/next/dist/server/patch-error-inspect.js",
+              "node_modules/next/dist/server/response-cache/types.js": "node_modules/next/dist/server/response-cache/types.js",
+              "node_modules/next/dist/server/route-modules/app-page/module.compiled.js": "node_modules/next/dist/server/route-modules/app-page/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/app-page/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/route-modules/pages/module.compiled.js": "node_modules/next/dist/server/route-modules/pages/module.compiled.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/amp-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/app-router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/entrypoints.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/head-manager-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/hooks-client-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/html-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/image-config-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/loadable.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/router-context.js",
+              "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js": "node_modules/next/dist/server/route-modules/pages/vendored/contexts/server-inserted-html.js",
+              "node_modules/next/dist/server/web/utils.js": "node_modules/next/dist/server/web/utils.js",
+              "node_modules/next/dist/shared/lib/constants.js": "node_modules/next/dist/shared/lib/constants.js",
+              "node_modules/next/dist/shared/lib/deep-freeze.js": "node_modules/next/dist/shared/lib/deep-freeze.js",
+              "node_modules/next/dist/shared/lib/error-source.js": "node_modules/next/dist/shared/lib/error-source.js",
+              "node_modules/next/dist/shared/lib/invariant-error.js": "node_modules/next/dist/shared/lib/invariant-error.js",
+              "node_modules/next/dist/shared/lib/is-internal.js": "node_modules/next/dist/shared/lib/is-internal.js",
+              "node_modules/next/dist/shared/lib/is-plain-object.js": "node_modules/next/dist/shared/lib/is-plain-object.js",
+              "node_modules/next/dist/shared/lib/is-thenable.js": "node_modules/next/dist/shared/lib/is-thenable.js",
+              "node_modules/next/dist/shared/lib/modern-browserslist-target.js": "node_modules/next/dist/shared/lib/modern-browserslist-target.js",
+              "node_modules/next/dist/shared/lib/no-fallback-error.external.js": "node_modules/next/dist/shared/lib/no-fallback-error.external.js",
+              "node_modules/next/dist/shared/lib/runtime-config.external.js": "node_modules/next/dist/shared/lib/runtime-config.external.js",
+              "node_modules/next/dist/shared/lib/server-reference-info.js": "node_modules/next/dist/shared/lib/server-reference-info.js",
+              "node_modules/next/package.json": "node_modules/next/package.json",
+              "node_modules/react/cjs/react.production.js": "node_modules/react/cjs/react.production.js",
+              "node_modules/react/index.js": "node_modules/react/index.js",
+              "node_modules/react/package.json": "node_modules/react/package.json",
+              "node_modules/styled-jsx/dist/index/index.js": "node_modules/styled-jsx/dist/index/index.js",
+              "node_modules/styled-jsx/index.js": "node_modules/styled-jsx/index.js",
+              "node_modules/styled-jsx/package.json": "node_modules/styled-jsx/package.json",
+              "node_modules/styled-jsx/style.js": "node_modules/styled-jsx/style.js",
+              ".next/package.json": ".next/package.json",
+              ".next/server/pages/404.html": ".next/server/pages/404.html",
+              ".env.example": ".env.example",
+              ".env.local": ".env.local",
+              ".next/build-manifest.json": ".next/build-manifest.json",
+              ".next/prerender-manifest.json": ".next/prerender-manifest.json",
+              ".next/server/functions-config-manifest.json": ".next/server/functions-config-manifest.json",
+              ".next/server/middleware-manifest.json": ".next/server/middleware-manifest.json",
+              ".next/server/middleware-build-manifest.js": ".next/server/middleware-build-manifest.js",
+              ".next/server/middleware-react-loadable-manifest.js": ".next/server/middleware-react-loadable-manifest.js",
+              ".next/react-loadable-manifest.json": ".next/react-loadable-manifest.json",
+              ".next/app-path-routes-manifest.json": ".next/app-path-routes-manifest.json",
+              ".next/server/server-reference-manifest.js": ".next/server/server-reference-manifest.js",
+              ".next/app-build-manifest.json": ".next/app-build-manifest.json",
+              ".next/server/server-reference-manifest.json": ".next/server/server-reference-manifest.json",
+              ".next/BUILD_ID": ".next/BUILD_ID",
+              ".next/server/next-font-manifest.js": ".next/server/next-font-manifest.js",
+              ".next/server/next-font-manifest.json": ".next/server/next-font-manifest.json",
+              ".next/required-server-files.json": ".next/required-server-files.json",
+              "node_modules/next/dist/pages/_app.js": "node_modules/next/dist/pages/_app.js",
+              "node_modules/react/cjs/react-jsx-runtime.development.js": "node_modules/react/cjs/react-jsx-runtime.development.js",
+              "node_modules/react/cjs/react-jsx-runtime.production.js": "node_modules/react/cjs/react-jsx-runtime.production.js",
+              "node_modules/react/cjs/react.development.js": "node_modules/react/cjs/react.development.js",
+              "node_modules/react/jsx-runtime.js": "node_modules/react/jsx-runtime.js",
+              "package.json": "package.json",
+              ".next/server/webpack-runtime.js": ".next/server/webpack-runtime.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/index.js": "node_modules/next/dist/compiled/jsonwebtoken/index.js",
+              "node_modules/next/dist/compiled/jsonwebtoken/package.json": "node_modules/next/dist/compiled/jsonwebtoken/package.json",
+              "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js": "node_modules/next/dist/compiled/next-server/pages.runtime.prod.js",
+              "node_modules/next/dist/lib/semver-noop.js": "node_modules/next/dist/lib/semver-noop.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js": "node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.development.js": "node_modules/react-dom/cjs/react-dom-server.browser.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.browser.production.js": "node_modules/react-dom/cjs/react-dom-server.browser.production.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.development.js": "node_modules/react-dom/cjs/react-dom-server.edge.development.js",
+              "node_modules/react-dom/cjs/react-dom-server.edge.production.js": "node_modules/react-dom/cjs/react-dom-server.edge.production.js",
+              "node_modules/react-dom/cjs/react-dom.development.js": "node_modules/react-dom/cjs/react-dom.development.js",
+              "node_modules/react-dom/cjs/react-dom.production.js": "node_modules/react-dom/cjs/react-dom.production.js",
+              "node_modules/react-dom/index.js": "node_modules/react-dom/index.js",
+              "node_modules/react-dom/package.json": "node_modules/react-dom/package.json",
+              "node_modules/react-dom/server.browser.js": "node_modules/react-dom/server.browser.js",
+              "node_modules/react-dom/server.edge.js": "node_modules/react-dom/server.edge.js",
+              ".next/server/chunks/611.js": ".next/server/chunks/611.js",
+              "node_modules/next/dist/pages/_document.js": "node_modules/next/dist/pages/_document.js",
+              "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js": "node_modules/next/dist/compiled/next-server/app-page.runtime.prod.js",
+              "node_modules/next/dist/server/app-render/action-async-storage-instance.js": "node_modules/next/dist/server/app-render/action-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/action-async-storage.external.js": "node_modules/next/dist/server/app-render/action-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/cache-signal.js": "node_modules/next/dist/server/app-render/cache-signal.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage-instance.js",
+              "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js": "node_modules/next/dist/server/app-render/dynamic-access-async-storage.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.external.js",
+              "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js": "node_modules/next/dist/server/app-render/module-loading/track-module-loading.instance.js",
+              "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js": "node_modules/next/dist/shared/lib/page-path/ensure-leading-slash.js",
+              "node_modules/next/dist/shared/lib/router/utils/app-paths.js": "node_modules/next/dist/shared/lib/router/utils/app-paths.js",
+              "node_modules/next/dist/shared/lib/router/utils/html-bots.js": "node_modules/next/dist/shared/lib/router/utils/html-bots.js",
+              "node_modules/next/dist/shared/lib/router/utils/is-bot.js": "node_modules/next/dist/shared/lib/router/utils/is-bot.js",
+              "node_modules/next/dist/shared/lib/segment.js": "node_modules/next/dist/shared/lib/segment.js",
+              ".next/server/chunks/778.js": ".next/server/chunks/778.js",
+              ".next/server/app/_not-found/page_client-reference-manifest.js": ".next/server/app/_not-found/page_client-reference-manifest.js",
+              ".next/server/app/page_client-reference-manifest.js": ".next/server/app/page_client-reference-manifest.js",
+              ".next/server/app/_not-found/page.js": ".next/server/app/_not-found/page.js",
+              ".next/server/app/page.js": ".next/server/app/page.js",
+              ".next/server/pages/_app.js": ".next/server/pages/_app.js",
+              ".next/server/pages/_error.js": ".next/server/pages/_error.js",
+              ".next/server/pages/_document.js": ".next/server/pages/_document.js"
+            }
+          },
+          "route": {
+            "path": "/index.rsc",
+            "headers": {
+              "x-nextjs-stale-time": "300",
+              "x-nextjs-prerender": "1",
+              "x-next-cache-tags": "_N_T_/layout,_N_T_/page,_N_T_/",
+              "vary": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+              "content-type": "text/x-component"
+            },
+            "overrides": []
+          }
+        }
+      ],
+      "ignored": [
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/generate.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/generate",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "DgcRehdHAAsKKmk2SUg15",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "0a/PKMJeAnGdBZpL8BuUTfN4xjlLklhK0sjrhQuboIE=",
+              "__NEXT_PREVIEW_MODE_ID": "807f12b220648294553362da8f17c065",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "e67b43364e4f309fd3c94594d7565f5b1cc230ea397aaddb77d2bb67f62cf9db",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "7b09500599c5bee51be81f07153a1258e2cc7f0538b7ef306293700a3bedaeff"
+            }
+          },
+          "route": {
+            "path": "/api/generate.rsc",
+            "overrides": []
+          }
+        },
+        {
+          "reason": "unnecessary rsc function",
+          "relativePath": "/api/translate.rsc.func",
+          "config": {
+            "runtime": "edge",
+            "name": "api/translate",
+            "deploymentTarget": "v8-worker",
+            "entrypoint": "index.js",
+            "assets": [],
+            "framework": {
+              "slug": "nextjs",
+              "version": "15.5.14"
+            },
+            "environment": {
+              "__NEXT_BUILD_ID": "DgcRehdHAAsKKmk2SUg15",
+              "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "0a/PKMJeAnGdBZpL8BuUTfN4xjlLklhK0sjrhQuboIE=",
+              "__NEXT_PREVIEW_MODE_ID": "807f12b220648294553362da8f17c065",
+              "__NEXT_PREVIEW_MODE_SIGNING_KEY": "e67b43364e4f309fd3c94594d7565f5b1cc230ea397aaddb77d2bb67f62cf9db",
+              "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "7b09500599c5bee51be81f07153a1258e2cc7f0538b7ef306293700a3bedaeff"
+            }
+          },
+          "route": {
+            "path": "/api/translate.rsc",
+            "overrides": []
+          }
+        }
+      ]
+    },
+    "staticAssets": [
+      "/404.html",
+      "/404.rsc.json",
+      "/500.html",
+      "/_app.rsc.json",
+      "/_document.rsc.json",
+      "/_error.rsc.json",
+      "/_next/static/DgcRehdHAAsKKmk2SUg15/_buildManifest.js",
+      "/_next/static/DgcRehdHAAsKKmk2SUg15/_ssgManifest.js",
+      "/_next/static/chunks/2170a4aa-442e78585956817b.js",
+      "/_next/static/chunks/255-38b49df12a94ee57.js",
+      "/_next/static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "/_next/static/chunks/app/_not-found/page-a6bd4c41605ba46e.js",
+      "/_next/static/chunks/app/api/generate/route-9c0ac2e0537fed4b.js",
+      "/_next/static/chunks/app/api/translate/route-9c0ac2e0537fed4b.js",
+      "/_next/static/chunks/app/layout-cfe7843923d35bbc.js",
+      "/_next/static/chunks/app/page-00a2f958f7fd3dee.js",
+      "/_next/static/chunks/framework-de98b93a850cfc71.js",
+      "/_next/static/chunks/main-909a7cec6345ef55.js",
+      "/_next/static/chunks/main-app-ffd9c2270caf2a9c.js",
+      "/_next/static/chunks/pages/_app-7d307437aca18ad4.js",
+      "/_next/static/chunks/pages/_error-cb2a52f75f2162e2.js",
+      "/_next/static/chunks/polyfills-42372ed130431b0a.js",
+      "/_next/static/chunks/webpack-4a462cecab786e93.js",
+      "/_next/static/css/029d654e6a6bc8ef.css",
+      "/_next/static/not-found.txt"
+    ],
+    "identifiers": {
+      "wasm": {},
+      "manifest": {
+        "__RSC_SERVER_MANIFEST": {
+          "consumers": 2,
+          "groupedPath": "88a389dd6c068190adb2efc795e4063c",
+          "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
+          "byteLength": 178,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "__REACT_LOADABLE_MANIFEST": {
+          "consumers": 2,
+          "groupedPath": "88a389dd6c068190adb2efc795e4063c",
+          "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
+          "byteLength": 89,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "__NEXT_FONT_MANIFEST": {
+          "consumers": 2,
+          "groupedPath": "88a389dd6c068190adb2efc795e4063c",
+          "newDest": "__next-on-pages-dist__/manifest/88a389dd6c068190adb2efc795e4063c.js",
+          "byteLength": 154,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        }
+      },
+      "webpack": {
+        "86": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 16850,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "182": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 24359,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "436": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1704,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "460": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 381,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "554": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1849,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "622": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 208,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "655": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 3508,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "857": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1636,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "882": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 348,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1087": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1130": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 292,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1212": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1367,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1347": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 47174,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1417": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 589,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1640": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 187,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1664": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1714,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1668": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 469,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1679": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1117,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1699": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1284,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "1983": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 214,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2058": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 473,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2392": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 232,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2398": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 553,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2449": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 10955,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2456": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 371,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2470": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1082,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2569": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 6199,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2605": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 206,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2668": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 4025,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2831": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 268,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2882": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 295,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2890": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1412,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "2993": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 324,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3114": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 4949,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3173": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1888,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3207": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 2104,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3355": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 167,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3373": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 10129,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3419": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 343,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3682": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 325,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3850": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 360,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3864": {
+          "consumers": 1,
+          "inlined": true,
+          "byteLength": 13742,
+          "consumersList": [
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3911": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 5424,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3948": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 127,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "3951": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 190,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4023": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 184,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4055": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1845,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4116": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 424,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4153": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 308,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4182": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 68,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4207": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 2521,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4211": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 2537,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4289": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 160,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4291": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1037,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4309": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1501,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4570": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 4082,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4689": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1701,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4752": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 11220,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "4946": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 203,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5002": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 476,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5063": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 358,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5166": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 2397,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5182": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 4969,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5209": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 103,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5280": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 2269,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5298": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 50657,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5335": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 190,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5354": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 779,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5356": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 90,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5521": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 95,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5544": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 53834,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5638": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 370,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5723": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 7805,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5752": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 259,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5826": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 322,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "5897": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 166,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "6008": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 31074,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "6138": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 268,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "6216": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1387,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "6225": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 103,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "6487": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 46,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "6859": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1323,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7205": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 252,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7223": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 103,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7261": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 821,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7316": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 126,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7329": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 187,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7382": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7426": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 154,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7478": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 245,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7502": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 220,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7504": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 194,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7521": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 423,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7538": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 184,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7581": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 502,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7622": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1926,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7668": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 170,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7670": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 679,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "7707": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 169,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8105": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 8817,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8327": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 123,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8335": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 46,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8360": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 9925,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8512": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 8693,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8546": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1673,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8619": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 81,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8712": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 96653,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8749": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 2310,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "8826": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 602,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9414": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 3049,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9456": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 127,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9565": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1259,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9624": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 412,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9633": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 235,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9636": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 985,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9739": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 439,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9785": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 1015,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9802": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 4401,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9904": {
+          "consumers": 2,
+          "groupedPath": "43b60bb23d40ecf0ef576fa71f713bd8",
+          "newDest": "__next-on-pages-dist__/webpack/43b60bb23d40ecf0ef576fa71f713bd8.js",
+          "byteLength": 226,
+          "consumersList": [
+            "/api/generate.func/index.js",
+            "/api/translate.func/index.js"
+          ]
+        },
+        "9938": {
+          "consumers": 1,
+          "inlined": true,
+          "byteLength": 13162,
+          "consumersList": [
+            "/api/generate.func/index.js"
+          ]
+        }
+      }
+    }
+  }
+}

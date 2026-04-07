@@ -10,7 +10,7 @@ import { resolveDefaultProvider } from "@/lib/llm/models";
 import { translateRequestSchema } from "@/lib/validate/schemas";
 import { parseAndValidateTranslation } from "@/lib/validate/translateResult";
 
-export const runtime = "nodejs";
+export const runtime = "edge";
 
 export async function POST(req: Request) {
   const traceId = crypto.randomUUID();
