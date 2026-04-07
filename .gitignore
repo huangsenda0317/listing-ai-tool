@@ -33,3 +33,12 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# OpenNext
+.open-next
+
+# Wrangler local secrets（勿提交密钥；本地从 .dev.vars.example 复制）
+.dev.vars
+
+# Wrangler 本地状态
+.wrangler/

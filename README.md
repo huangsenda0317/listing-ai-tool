@@ -31,12 +31,25 @@ npm run dev
 
 ## 脚本
 
-| 命令         | 说明     |
-| ------------ | -------- |
-| `npm run dev`    | 本地开发 |
-| `npm run build`  | 生产构建 |
-| `npm run start`  | 启动生产 |
-| `npm run lint`   | ESLint   |
+| 命令 | 说明 |
+| --- | --- |
+| `npm run dev` | 本地开发（Node，热更新） |
+| `npm run build` | 仅 `next build` |
+| `npm run cf-build` | OpenNext 完整构建（生成 `.open-next/`，用于 Workers） |
+| `npm run preview` | 构建后在本地 **workerd** 预览（接近线上） |
+| `npm run deploy` | 构建并部署到 Cloudflare Workers |
+| `npm run start` | Node 下 `next start`（非 Cloudflare 运行时） |
+| `npm run lint` | ESLint |
+
+## 部署到 Cloudflare（OpenNext）
+
+本项目使用 [@opennextjs/cloudflare](https://opennextjs.org/cloudflare)，在 Workers 上运行 **Node.js 兼容运行时**（`nodejs_compat`）。**推荐** OpenNext 部署；若仍用 **Cloudflare Pages + `@cloudflare/next-on-pages`**，[`wrangler.toml`](./wrangler.toml) 已含 `pages_build_output_dir` 与 `nodejs_compat`；OpenNext / `wrangler deploy` 使用 [`wrangler.opennext.jsonc`](./wrangler.opennext.jsonc)（`npm run cf-build` 等已传 `-c`）。
+
+1. 根目录已有 [`wrangler.opennext.jsonc`](./wrangler.opennext.jsonc)、[`wrangler.toml`](./wrangler.toml)（Pages）、[`open-next.config.ts`](./open-next.config.ts)。
+2. **Workers Builds / CI**：构建命令建议使用带 `-c wrangler.opennext.jsonc` 的 `npm run cf-build`，并按 [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) 与 [OpenNext 环境变量说明](https://opennext.js.org/cloudflare/howtos/env-vars) 在控制台配置 `OPENAI_API_KEY` 等与 `.env.example` 对应的变量。
+3. 本地预览 Workers 行为：`cp .dev.vars.example .dev.vars` 后执行 `npm run preview`。
+4. 可选：在 `open-next.config.ts` 中启用 R2 增量缓存，见 [Caching](https://opennext.js.org/cloudflare/caching)（迁移时若未开通 R2 需手动配置）。
+5. 若需 **next/image** 走 Cloudflare Images，再在 `wrangler.opennext.jsonc` 中按 [官方文档](https://opennext.js.org/cloudflare/howtos/image) 增加 `images` 绑定。
 
 ## 技术说明
 
