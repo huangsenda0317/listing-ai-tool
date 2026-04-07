@@ -1,0 +1,6 @@
+# Cloudflare Pages（含 @cloudflare/next-on-pages）由此文件读取 pages_build_output_dir 与兼容性标志。
+# OpenNext / `wrangler deploy` 请使用 wrangler.opennext.jsonc（package.json 已传 -c）。
+name = "listing-ai-tool"
+compatibility_date = "2026-04-05"
+compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
+pages_build_output_dir = ".vercel/output/static"

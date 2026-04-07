@@ -43,13 +43,13 @@ npm run dev
 
 ## 部署到 Cloudflare（OpenNext）
 
-本项目使用 [@opennextjs/cloudflare](https://opennextjs.org/cloudflare)，在 Workers 上运行 **Node.js 兼容运行时**（`nodejs_compat`），**请勿**再使用已弃用的 `npx @cloudflare/next-on-pages@1`。
+本项目使用 [@opennextjs/cloudflare](https://opennextjs.org/cloudflare)，在 Workers 上运行 **Node.js 兼容运行时**（`nodejs_compat`）。**推荐** OpenNext 部署；若仍用 **Cloudflare Pages + `@cloudflare/next-on-pages`**，[`wrangler.toml`](./wrangler.toml) 已含 `pages_build_output_dir` 与 `nodejs_compat`；OpenNext / `wrangler deploy` 使用 [`wrangler.opennext.jsonc`](./wrangler.opennext.jsonc)（`npm run cf-build` 等已传 `-c`）。
 
-1. 根目录已有 [`wrangler.jsonc`](./wrangler.jsonc)、[`open-next.config.ts`](./open-next.config.ts)。
-2. **Workers Builds / CI**：构建命令建议使用 `npm run cf-build`（或 `npx opennextjs-cloudflare build`），并按 [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) 与 [OpenNext 环境变量说明](https://opennext.js.org/cloudflare/howtos/env-vars) 在控制台配置 `OPENAI_API_KEY` 等与 `.env.example` 对应的变量。
+1. 根目录已有 [`wrangler.opennext.jsonc`](./wrangler.opennext.jsonc)、[`wrangler.toml`](./wrangler.toml)（Pages）、[`open-next.config.ts`](./open-next.config.ts)。
+2. **Workers Builds / CI**：构建命令建议使用带 `-c wrangler.opennext.jsonc` 的 `npm run cf-build`，并按 [Cloudflare Workers Builds](https://developers.cloudflare.com/workers/ci-cd/builds/) 与 [OpenNext 环境变量说明](https://opennext.js.org/cloudflare/howtos/env-vars) 在控制台配置 `OPENAI_API_KEY` 等与 `.env.example` 对应的变量。
 3. 本地预览 Workers 行为：`cp .dev.vars.example .dev.vars` 后执行 `npm run preview`。
 4. 可选：在 `open-next.config.ts` 中启用 R2 增量缓存，见 [Caching](https://opennext.js.org/cloudflare/caching)（迁移时若未开通 R2 需手动配置）。
-5. 若需 **next/image** 走 Cloudflare Images，再在 `wrangler.jsonc` 中按 [官方文档](https://opennext.js.org/cloudflare/howtos/image) 增加 `images` 绑定。
+5. 若需 **next/image** 走 Cloudflare Images，再在 `wrangler.opennext.jsonc` 中按 [官方文档](https://opennext.js.org/cloudflare/howtos/image) 增加 `images` 绑定。
 
 ## 技术说明
 
